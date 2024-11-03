@@ -32,14 +32,14 @@ function backup-config-end() {
     fi
     set -u
 
-    cp "${CONFIG_FILE}" \
-        "${LOG_FILE_DIR}/${ASDK_DEPLOYMENT_SCRIPT_RUN_TIME}/config.end.json"
+    # cp "${CONFIG_FILE}" \
+    #     "${LOG_FILE_DIR}/${ASDK_DEPLOYMENT_SCRIPT_RUN_TIME}/config.end.json"
 
-    cp "${IDENTITY_FOUNDATION_BICEP_PARAMETERS_FILE}" \
-        "${LOG_FILE_DIR}/${ASDK_DEPLOYMENT_SCRIPT_RUN_TIME}/"
+    # cp "${IDENTITY_FOUNDATION_BICEP_PARAMETERS_FILE}" \
+    #     "${LOG_FILE_DIR}/${ASDK_DEPLOYMENT_SCRIPT_RUN_TIME}/"
 
-    cp "${CERTIFICATE_POLICY_FILE}" \
-        "${LOG_FILE_DIR}/${ASDK_DEPLOYMENT_SCRIPT_RUN_TIME}/"
+    # cp "${CERTIFICATE_POLICY_FILE}" \
+    #     "${LOG_FILE_DIR}/${ASDK_DEPLOYMENT_SCRIPT_RUN_TIME}/"
 }
 
 function backup-log() {

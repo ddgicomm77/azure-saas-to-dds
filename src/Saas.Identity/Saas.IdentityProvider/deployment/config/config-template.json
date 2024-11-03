@@ -1,21 +1,21 @@
 { 
   "initConfig": {
-    "userPrincipalId": "",
-    "subscriptionId": "",
+    "userPrincipalId": "b96bef56-e490-487c-adc3-edfa5bd9c0c1",
+    "subscriptionId": "c116b2a0-f7a9-44ad-8637-8bc71d059cda",
     "tenantId": "",
-    "location": "",
+    "location": "eastus",
     "naming": {
       "solutionPrefix": "asdk",
-      "solutionName": "test"
+      "solutionName": "ddsc"
     },
     "azureb2c": {
-      "location": "Europe",
-      "countryCode": "DK",
+      "location": "United States",
+      "countryCode": "US",
       "skuName": "PremiumP1",
       "tier": "A0"
     }
   },
-  "version": "0.8.0",
+  "version": "0.1.0",
   "environment": "Production",
   "git": {
     "branch": "main"
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "name": "signupadmin-app",
+      "name": "signupmain-app",
       "appServiceName": null,
       "certificate": true,
       "hasSecret": true,
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "name": "saas-app",
+      "name": "saasCustomer-app",
       "appServiceName": null,
       "certificate": true,
       "hasSecret": true,

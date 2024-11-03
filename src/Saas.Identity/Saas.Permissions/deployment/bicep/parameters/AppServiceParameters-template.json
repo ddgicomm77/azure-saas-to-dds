@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "permissionsapi": {
+        "value": "permission-api"
+      },
+      "version": {
+        "value": "0.1.0"
+      },
+      "environment": {
+        "value": "Staging"
+      },
+      "appServicePlanName": {
+        "value": "saas-backend-dds-asp"
+      },
+      "keyVaultUri": {
+        "value": "saas-backend-dds-kv"
+      },
+      "location": {
+        "value": "eastus"
+      },
+      "userAssignedIdentityName": {
+        "value": "user-assigned-id-saas-backend-dds"
+      },
+      "appConfigurationName": {
+        "value": "saas-backend-dds-ac"
+      },
+      "logAnalyticsWorkspaceName": {
+        "value": "DefaultWorkspace-c116b2a0-f7a9-44ad-8637-8bc71d059cda-EUS"
+      },
+      "applicationInsightsName": {
+        "value": "saas-backend-ddsc-appi"
+      }
+}
+}
